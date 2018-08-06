@@ -20,10 +20,13 @@ public class BootstrapCmd implements CommandLineRunner {
         @Override
         public void run(String... args) throws Exception {
              Movie movie = new Movie();
-                movie.setMovieTitle("solo");
+             movie.setMovieId(1);  
+             movie.setMovieTitle("solo");
+               
                 movieRepository.save(movie);
                 Movie testMovie = Movie.builder()
-                        .movieTitle("foo")
+                        .movieId(2)
+                		.movieTitle("foo")
                         .build();
                 movieRepository.save(testMovie);// TODO Auto-generated method stub
             

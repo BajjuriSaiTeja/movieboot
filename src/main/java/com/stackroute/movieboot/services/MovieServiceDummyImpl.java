@@ -54,10 +54,10 @@ public class MovieServiceDummyImpl implements MovieService{
 		return null;
 	}
 
-	@Override
-	public List<Movie> getByMovieAlpha(String movieTitle) {
-		System.out.println("we are getting movie title by first character");
-		return null;
-	}
+//	@Override
+//	public List<Movie> getByMovieAlpha(String movieTitle) {
+//		System.out.println("we are getting movie title by first character");
+//		return null;
+//	}
 
 }

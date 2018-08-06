@@ -19,8 +19,8 @@ public interface MovieService {
 	public boolean deleteMovie(int movieId) throws MovieNotFoundException;
 
 	public Movie updateMovie(Movie movie) throws MovieNotFoundException;
-	
+
 	public List<Movie> getMovieByMovieTitle(String movieTitle);
-	
-	public List<Movie> getByMovieAlpha(String movieTitle);
+
+	// public List<Movie> getByMovieAlpha(String movieTitle);
 }

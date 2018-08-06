@@ -73,10 +73,10 @@ public class MovieServiceImpl implements MovieService {
 		return movies;
 	}
 
-	@Override
-	public List<Movie> getByMovieAlpha(String movieTitle) {
-		List<Movie> movies = movieRepository.getByMovieAlpha(movieTitle);
-		return movies;
-	}
+//	@Override
+//	public List<Movie> getByMovieAlpha(String movieTitle) {
+//		List<Movie> movies = movieRepository.getByMovieAlpha(movieTitle);
+//		return movies;
+//	}
 
 }
